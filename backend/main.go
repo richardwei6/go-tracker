@@ -20,6 +20,8 @@ func main() {
 
 	r.Get("/tasks", getTasks)
 
+	r.Post("/tasks", createTask)
+
 	http.ListenAndServe("localhost:9000", r)
 }
 
