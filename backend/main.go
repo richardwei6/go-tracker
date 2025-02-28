@@ -8,19 +8,27 @@ import (
 )
 
 func main() {
+	loadNextTaskID() // load next possible task ID
+
+	// start router
+
 	r := chi.NewRouter()
 
 	r.Use(middleware.Logger) // logger middleware
 
 	r.Use(JSONMiddleWare) // json handler
 
-	r.Get("/", func(w http.ResponseWriter,  r *http.Request){ // https request
-		w.Write([]byte("Hello test"))
+	r.Get("/", func(w http.ResponseWriter,  r *http.Request){ // http request
+		w.Write([]byte("Hello"))
 	})
 
 	r.Get("/tasks", getTasks)
 
 	r.Post("/tasks", createTask)
+
+	r.Patch("/tasks/{taskID}", updateTask) // handle updating task
+
+	r.Delete("/tasks/{taskID}", deleteTask) // delete task
 
 	http.ListenAndServe("localhost:9000", r)
 }
