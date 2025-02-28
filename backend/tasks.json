@@ -1,57 +1,47 @@
 [
-    {
-        "id": 1,
-        "name": "Task1",
-        "done": false
-    },
-    {
-        "id": 2,
-        "name": "Task2",
-        "done": false
-    },
-    {
-        "id": 3,
-        "name": "Task3",
-        "done": false
-    },
-    {
-        "id": 4,
-        "name": "Task4",
-        "done": true
-    },
-    {
-        "id": 5,
-        "name": "new task from insomnia",
-        "done": false
-    },
-    {
-        "id": 6,
-        "name": "new task from insomnia",
-        "done": false
-    },
-    {
-        "id": 7,
-        "name": "new task from insomnia",
-        "done": false
-    },
-    {
-        "id": 8,
-        "name": "new task from insomnia",
-        "done": false
-    },
-    {
-        "id": 9,
-        "name": "new task from insomnia",
-        "done": false
-    },
-    {
-        "id": 11,
-        "name": "brand new task",
-        "done": false
-    },
-    {
-        "id": 13,
-        "name": "this is another new task",
-        "done": false
-    }
+	{
+		"id": 1,
+		"name": "Task1",
+		"done": false
+	},
+	{
+		"id": 2,
+		"name": "Task2",
+		"done": false
+	},
+	{
+		"id": 3,
+		"name": "Task3",
+		"done": false
+	},
+	{
+		"id": 4,
+		"name": "Task4",
+		"done": true
+	},
+	{
+		"id": 5,
+		"name": "new task from insomnia",
+		"done": false
+	},
+	{
+		"id": 7,
+		"name": "new task from insomnia",
+		"done": false
+	},
+	{
+		"id": 8,
+		"name": "new task from insomnia",
+		"done": false
+	},
+	{
+		"id": 9,
+		"name": "new task from insomnia",
+		"done": false
+	},
+	{
+		"id": 11,
+		"name": "brand new task",
+		"done": false
+	}
 ]

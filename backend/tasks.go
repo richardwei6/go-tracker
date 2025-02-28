@@ -231,7 +231,7 @@ func readLocalJSON() ([]Task, error) {
 }
 
 func writeLocalJSON(tasks []Task) (error) {
-	j, err := json.Marshal(tasks)
+	j, err := json.MarshalIndent(tasks, "", "	")
 
 	if err != nil {
 		return err
